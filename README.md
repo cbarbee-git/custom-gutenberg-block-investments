@@ -12,7 +12,7 @@
 	</p>
 </div>
 
-# Wordpress Custom Team Members Gutenberg Block
+# Wordpress Custom Investments Gutenberg Block
 
 Gutenberg Custom Block plugin to add investments and investment-grids to your WP website.
 
