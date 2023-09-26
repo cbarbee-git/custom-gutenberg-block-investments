@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "custom-block/investments",
+  "version": "0.1.0",
+  "title": "Investment Grid",
+  "category": "media",
+  "description": "A custom grid containing investments.",
+  "keywords": [
+    "investment grid",
+    "investments",
+    "grid"
+  ],
+  "supports": {
+    "html": false,
+    "align": [
+      "wide"
+    ]
+  },
+  "textdomain": "investments",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 4
+    }
+  },
+  "example": {
+    "attributes": {
+      "columns": 4
+    },
+    "innerBlocks": [
+      {
+        "name": "custom-block/investment",
+        "attributes": {
+          "title": "Investment Title 1",
+          "url": "https://picsum.photos/id/1012/300/200",
+          "business": "Commercial asphalt paving and concrete services",
+          "sector": "Commercial asphalt paving and concrete services",
+          "years": "2021 - Current",
+          "type": "Management Recapitalization"
+        }
+      },
+      {
+        "name": "custom-block/investment",
+        "attributes": {
+          "title": "Investment Title 2",
+          "url": "https://picsum.photos/id/1012/300/200",
+          "business": "Commercial asphalt paving and concrete services",
+          "sector": "Specialty Business Services",
+          "years": "2021 - Current",
+          "type": "Management Recapitalization"
+        }
+      },
+      {
+        "name": "custom-block/investment",
+        "attributes": {
+          "title": "Investment Title 3",
+          "url": "https://picsum.photos/id/1012/300/200",
+          "business": "Commercial asphalt paving and concrete services",
+          "sector": "Specialty Business Services",
+          "years": "2021 - Current",
+          "type": "Management Recapitalization"
+        }
+      },
+      {
+        "name": "custom-block/investment 4",
+        "attributes": {
+          "title": "Investment Title",
+          "url": "https://picsum.photos/id/1012/300/200",
+          "business": "Commercial asphalt paving and concrete services",
+          "sector": "Specialty Business Services",
+          "years": "2021 - Current",
+          "type": "Equity"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.investment-wrapper {
+  display: flex;
+}
+.investment-wrapper .investments-nav {
+  margin-top: 20px;
+  display: flex;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px auto;
+}
+.investment-wrapper .investments-nav .wp-block-navigation-link {
+  width: 100%;
+}
+.investment-wrapper .investments-nav a {
+  text-decoration: none;
+  border-bottom: 1px solid #4b4b4b;
+  color: #4b4b4b;
+  flex-basis: 100%;
+  display: block;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+}
+.investment-wrapper .investments-nav a.active-link {
+  border-bottom: 1px solid #2c7e83;
+  color: #2c7e83;
+}
+.investment-wrapper .wp-block-custom-block-investments {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  flex-basis: 75%;
+  padding: 0;
+}
+.investment-wrapper .wp-block-custom-block-investments p#message {
+  color: rgb(163, 2, 2);
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-investment-card {
+  visibility: hidden;
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-investment-card:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-investment-card.active-card {
+  visibility: visible;
+}
+.investment-wrapper .wp-block-custom-block-investments.has-1-columns .wp-block-custom-block-investment {
+  width: calc(100% / 1 - 20px);
+}
+.investment-wrapper .wp-block-custom-block-investments.has-2-columns .wp-block-custom-block-investment {
+  width: calc(100% / 2 - 20px);
+}
+.investment-wrapper .wp-block-custom-block-investments.has-3-columns .wp-block-custom-block-investment {
+  width: calc(100% / 3 - 20px);
+}
+.investment-wrapper .wp-block-custom-block-investments.has-4-columns .wp-block-custom-block-investment {
+  width: calc(100% / 4 - 20px);
+}
+.investment-wrapper .wp-block-custom-block-investments.has-5-columns .wp-block-custom-block-investment {
+  width: calc(100% / 5 - 20px);
+}
+.investment-wrapper .wp-block-custom-block-investments.has-6-columns .wp-block-custom-block-investment {
+  width: calc(100% / 6 - 20px);
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-block-investment {
+  /*&:nth-child(odd) {
+  	background-color: #f8f8f8;
+  }*/
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-block-investment .investment-img-container {
+  align-items: center;
+  display: flex;
+  min-height: 150px;
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-block-investment .investment-img-container img.investment-logo {
+  max-width: 100%;
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-block-investment .wp-block-custom-investment-card {
+  text-align: center;
+  padding: 15px;
+}
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-block-investment {
+  margin: 10px;
+}
+.investment-wrapper .wp-block-custom-block-investments ul {
+  text-align: left;
+}
+.investment-wrapper .wp-block-custom-block-investments ul.card-ul {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .investment-wrapper {
+    display: block;
+  }
+  .investment-wrapper .investments-nav {
+    flex-basis: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-1-columns .wp-block-custom-block-investment {
+    width: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-1-columns .wp-block-custom-block-investment .investment-img-container {
+    display: block;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-2-columns .wp-block-custom-block-investment {
+    width: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-2-columns .wp-block-custom-block-investment .investment-img-container {
+    display: block;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-3-columns .wp-block-custom-block-investment {
+    width: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-3-columns .wp-block-custom-block-investment .investment-img-container {
+    display: block;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-4-columns .wp-block-custom-block-investment {
+    width: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-4-columns .wp-block-custom-block-investment .investment-img-container {
+    display: block;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-5-columns .wp-block-custom-block-investment {
+    width: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-5-columns .wp-block-custom-block-investment .investment-img-container {
+    display: block;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-6-columns .wp-block-custom-block-investment {
+    width: 100%;
+  }
+  .investment-wrapper .wp-block-custom-block-investments.has-6-columns .wp-block-custom-block-investment .investment-img-container {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

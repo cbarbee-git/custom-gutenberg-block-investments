@@ -1,0 +1,171 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ */
+.investment-wrapper {
+  display: flex;
+  /*.wp-block-group{
+  	display: flex;
+  	//flex-basis: 25%;
+  }*/
+}
+.investment-wrapper .investments-nav {
+  margin-top: 20px;
+  display: flex;
+  flex-basis: 25%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 15px auto;
+}
+.investment-wrapper .investments-nav a {
+  border-bottom: 1px solid #4b4b4b;
+  color: #4b4b4b;
+  flex-basis: 100%;
+  display: block;
+  padding: 20px 0;
+  transition: all 0.3s ease;
+}
+
+.wp-block-custom-block-investments {
+  display: block;
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-1-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  width: calc(100% / 1 - 20px);
+}
+.wp-block-custom-block-investments.has-1-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 1 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-custom-block-investments.has-2-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  width: calc(100% / 2 - 20px);
+}
+.wp-block-custom-block-investments.has-2-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 2 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-custom-block-investments.has-3-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  width: calc(100% / 3 - 20px);
+}
+.wp-block-custom-block-investments.has-3-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 3 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-custom-block-investments.has-4-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  width: calc(100% / 4 - 20px);
+}
+.wp-block-custom-block-investments.has-4-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 4 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-custom-block-investments.has-5-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  width: calc(100% / 5 - 20px);
+}
+.wp-block-custom-block-investments.has-5-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 5 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-custom-block-investments.has-6-columns {
+  /* stylelint-disable-next-line selector-class-pattern */
+}
+.wp-block-custom-block-investments.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  width: calc(100% / 6 - 20px);
+}
+.wp-block-custom-block-investments.has-6-columns > .block-editor-inner-blocks > .block-editor-block-list__layout > .block-list-appender {
+  align-self: stretch;
+  width: calc(100% / 6 - 20px);
+  border: 1px dashed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+  flex-basis: 75%;
+  padding: 0;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="custom-block/investment"] {
+  max-width: none;
+  margin: 0;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] {
+  margin: 10px;
+  /*add this to match allow placeholder to match the intended img*/
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] .block-editor-media-placeholder {
+  margin-bottom: 20px;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] .wp-block-custom-block-investment-img {
+  position: relative;
+  margin-bottom: 20px;
+  min-height: 150px;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] .wp-block-custom-block-investment-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] .wp-block-custom-block-investment-img.is-loading img {
+  opacity: 0.3;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] .wp-block-custom-block-investment-img img {
+  max-width: 100%;
+}
+.wp-block-custom-block-investments > .block-editor-inner-blocks > .block-editor-block-list__layout > [data-type="custom-block/investment"] .wp-block-custom-block-investment-img .components-spinner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*# sourceMappingURL=index.css.map*/

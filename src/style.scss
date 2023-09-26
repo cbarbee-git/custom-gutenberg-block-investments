@@ -1,0 +1,137 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.investment-wrapper{
+	display: flex;
+
+	.investments-nav {
+		margin-top:20px;
+		display: flex;
+		flex-basis: 25%;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin: 15px auto;
+
+		.wp-block-navigation-link {
+			width: 100%;
+		}
+
+		a {
+			text-decoration: none;
+			border-bottom: 1px solid #4b4b4b;
+			color: #4b4b4b;
+			flex-basis: 100%;
+			display: block;
+			padding: 20px 0;
+			transition: all .3s ease;
+			&.active-link {
+				border-bottom: 1px solid #2c7e83;
+				color: #2c7e83;
+			}
+		}
+	}
+
+
+	.wp-block-custom-block-investments {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -10px;
+		margin-right: -10px;
+		flex-basis: 75%;
+		padding: 0;
+
+		p{
+			&#message {
+				color: rgb(163, 2, 2);
+			}
+		}
+
+		.wp-block-custom-investment-card{
+			visibility: hidden;
+			&:nth-child(odd) {
+				background-color: #f8f8f8;
+			}
+			&.active-card {
+				visibility: visible;
+			}
+		}
+
+		@for $i from 1 through 6 {
+			&.has-#{$i}-columns {
+
+				.wp-block-custom-block-investment {
+					width: calc(100% / #{$i} - 20px);
+				}
+			}
+		}
+
+
+		.wp-block-custom-block-investment{
+			/*&:nth-child(odd) {
+				background-color: #f8f8f8;
+			}*/
+
+
+
+			.investment-img-container {
+				align-items: center;
+				display: flex;
+				min-height: 150px;
+
+				img {
+					&.investment-logo {
+						max-width: 100%;
+					}
+				}
+			}
+
+			.wp-block-custom-investment-card{
+				text-align: center;
+				padding: 15px;
+
+				
+			}
+		}
+
+		.wp-block-custom-block-investment {
+			margin: 10px;
+		}
+		ul {
+			text-align: left;
+
+			&.card-ul {
+				margin-top:0;
+			}
+		}
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.investment-wrapper{
+		display: block;
+		.investments-nav{
+			flex-basis: 100%;
+		}
+		.wp-block-custom-block-investments{
+			//reset for mobile
+			@for $i from 1 through 6 {
+				&.has-#{$i}-columns {
+	
+					.wp-block-custom-block-investment {
+						width: 100%;
+						.investment-img-container {
+							display:block;
+						}
+					}
+				}
+			}
+			
+		}
+	}
+}

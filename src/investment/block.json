@@ -1,0 +1,9 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "custom-block/investment",
+	"title": "Investment",
+	"description": "An investment card/item.",
+	"textdomain": "investment"
+	
+}
