@@ -26,22 +26,23 @@ jQuery(document).ready(function($) {
     function toggleCards( navId ){
         $('.wp-block-custom-investment-card').each(function(i, obj) {
             $(this).removeClass('active-card');
+            $(this).parent().hide();
         });
         var count = 0;
         $('.wp-block-custom-investment-card.' +  navId).each(function(i, obj) {
             $(this).addClass('active-card');
+            $(this).parent().show();
             count = i;
         });
         //if no active cards were found, show a message.
-        if(count == 0){
-            $('.wp-block-custom-block-investment').hide();
+        if(count === 0){
+            $('.wp-block-custom-block-investments').style.display = 'none';
             $('#message').text('No results.');
             $('#message').show();
         }else{
-            $('.wp-block-custom-block-investment').show();
-            $('.wp-block-custom-block-investments #message').hide(); 
+            $('.wp-block-custom-block-investments').show();
+            $('#message').hide(); 
         }
-
     }
 
 });
