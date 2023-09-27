@@ -3,12 +3,11 @@ import { Icon } from '@wordpress/components';
 
 export default function save({ attributes }) {
 	const { title, url, alt, id, business, sector, years, type, category  } = attributes;
-	//const category = 'private-equity-investments';
 	return (
 		<div {...useBlockProps.save()}>
 				<div className={`wp-block-custom-investment-card ${category}`}>
 					<div className="investment-img-container">
-						<img className="investment-logo" id={id} src={url} alt={alt ? (alt) : (title) } title={title} />
+						<img className="investment-logo" src={url} alt={alt ? (alt) : (title) } title={title} />
 					</div>
 					<ul className="card-ul">
 						{business &&
