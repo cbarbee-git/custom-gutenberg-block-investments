@@ -4,30 +4,26 @@
 
  .investment-wrapper{
 	display: flex;
+ }
 
-	/*.wp-block-group{
-		display: flex;
-		//flex-basis: 25%;
-	}*/
-
-	.investments-nav {
-		margin-top:20px;
-		display: flex;
-		flex-basis: 25%;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		align-items: flex-start;
-		margin: 15px auto;
-		a {
-			border-bottom: 1px solid #4b4b4b;
-			color: #4b4b4b;
-			flex-basis: 100%;
-			display: block;
-			padding: 20px 0;
-			transition: all .3s ease;
-		}
+.investments-nav {
+	margin-top:20px;
+	display: flex;
+	flex-basis: 25%;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 15px auto;
+	a {
+		border-bottom: 1px solid #4b4b4b;
+		color: #4b4b4b;
+		flex-basis: 100%;
+		display: block;
+		padding: 20px 0;
+		transition: all .3s ease;
 	}
 }
+
 
  .wp-block-custom-block-investments {
 	display: block;

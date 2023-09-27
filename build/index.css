@@ -6,12 +6,9 @@
  */
 .investment-wrapper {
   display: flex;
-  /*.wp-block-group{
-  	display: flex;
-  	//flex-basis: 25%;
-  }*/
 }
-.investment-wrapper .investments-nav {
+
+.investments-nav {
   margin-top: 20px;
   display: flex;
   flex-basis: 25%;
@@ -20,7 +17,7 @@
   align-items: flex-start;
   margin: 15px auto;
 }
-.investment-wrapper .investments-nav a {
+.investments-nav a {
   border-bottom: 1px solid #4b4b4b;
   color: #4b4b4b;
   flex-basis: 100%;
