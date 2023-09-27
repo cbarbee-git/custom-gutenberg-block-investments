@@ -46,11 +46,11 @@
 .investment-wrapper .wp-block-custom-block-investments p#message {
   color: rgb(163, 2, 2);
 }
+.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-block-investment:nth-child(odd) {
+  background-color: #f8f8f8;
+}
 .investment-wrapper .wp-block-custom-block-investments .wp-block-custom-investment-card {
   visibility: hidden;
-}
-.investment-wrapper .wp-block-custom-block-investments .wp-block-custom-investment-card:nth-child(odd) {
-  background-color: #f8f8f8;
 }
 .investment-wrapper .wp-block-custom-block-investments .wp-block-custom-investment-card.active-card {
   visibility: visible;

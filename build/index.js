@@ -460,7 +460,9 @@ function Edit({
       label: 'Operating Experience',
       value: 'operating-experience'
     }],
-    onChange: onChangeCategory
+    onChange: value => setAttributes({
+      category: value
+    })
   })));
 }
 /* harmony default export */ __webpack_exports__["default"] = ((0,_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.withNotices)(Edit));
@@ -560,6 +562,12 @@ __webpack_require__.r(__webpack_exports__);
       type: 'string',
       source: 'text',
       selector: '.type-item'
+    },
+    category: {
+      type: 'string',
+      source: 'text',
+      selector: '.category-item',
+      default: "private-equity-investments"
     }
   },
   /**
@@ -607,7 +615,6 @@ function save({
     type,
     category
   } = attributes;
-  //const category = 'private-equity-investments';
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ..._wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps.save()
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -616,7 +623,6 @@ function save({
     className: "investment-img-container"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     className: "investment-logo",
-    id: id,
     src: url,
     alt: alt ? alt : title,
     title: title
