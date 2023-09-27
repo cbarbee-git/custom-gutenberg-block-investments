@@ -16,7 +16,7 @@ jQuery(document).ready(function($) {
         $('.investments-nav li a').first().addClass('active-link');
 
         //add place for a message
-        $('.wp-block-custom-block-investments').prepend( "<p id='message'></p>" );
+        $('.wp-block-custom-block-investments').before( "<p id='message'></p>" );
 
         // remove hash, I cannot place an ID on these nav items,
         // this will have to do.
@@ -35,8 +35,8 @@ jQuery(document).ready(function($) {
         //if no active cards were found, show a message.
         if(count == 0){
             $('.wp-block-custom-block-investment').hide();
-            $('.wp-block-custom-block-investments #message').text('No results.');
-            $('.wp-block-custom-block-investments #message').show();
+            $('#message').text('No results.');
+            $('#message').show();
         }else{
             $('.wp-block-custom-block-investment').show();
             $('.wp-block-custom-block-investments #message').hide(); 
