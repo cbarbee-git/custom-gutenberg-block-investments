@@ -78,6 +78,12 @@ registerBlockType('custom-block/investment', {
 			source: 'text',
 			selector: '.type-item',
 		},
+		category: {
+			type: 'string',
+			source: 'text',
+			selector: '.category-item',
+			default: "private-equity-investments"
+		},
 
 	},
 	/**
