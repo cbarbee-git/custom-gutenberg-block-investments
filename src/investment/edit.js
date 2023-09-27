@@ -249,7 +249,7 @@ function Edit({
 						{ label: 'Private Equity Investments', value: 'private-equity-investments' },
 						{ label: 'Operating Experience', value: 'operating-experience' },
 					] }
-					onChange={onChangeCategory}
+					onChange={(value) => setAttributes({ category: value }) }
 				/>
 			</div>
 		</>
