@@ -4,6 +4,11 @@
 	"name": "custom-block/investment",
 	"title": "Investment",
 	"description": "An investment card/item.",
-	"textdomain": "investment"
-	
+	"textdomain": "investment",
+	"attributes": {
+        "category": {
+            "type": "string",
+            "default": "private-equity-investments"
+        }
+    }
 }
